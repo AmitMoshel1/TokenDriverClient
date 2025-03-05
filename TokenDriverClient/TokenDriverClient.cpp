@@ -18,7 +18,7 @@ namespace TokenClient
 	{
 	private:
 		std::vector<std::unique_ptr<TokenInfo>> TargetProcesses; // When creating a vector of "std::unique_ptr<>", each smart pointer
-																 // entered into the array needs to be called with "std::make_unique<>()"
+									 // entered into the array needs to be called with "std::make_unique<>()"
 	public:
 		TokenModifier(ULONG PIDs[], ULONG_PTR TokenPrivs[])
 		{
